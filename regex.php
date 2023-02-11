@@ -12,26 +12,24 @@ $content5 = "abc33 TASK 152 31rer";
 
 $content6 = "abc33 TASK152 31rer";
 
-preg_match('/(TASK|task)(-)*([0-9]{1,3})/', $content1,$c);
+preg_match('/(TASK|task)(-)+([0-9]{1,3})/', $content1,$c);
 
 print_r($c);
-preg_match('/(TASK|task)(-)*([0-9]{1,3})/', $content2,$c);
+preg_match('/(TASK|task)(-)+([0-9]{1,3})/', $content2,$c);
 
 print_r($c);
-preg_match('/(TASK|task)(-)*([0-9]{1,3})/', $content3,$c);
+preg_match('/(TASK|task)(-)+([0-9]{1,3})/', $content3,$c);
 
 print_r($c);
-preg_match('/(TASK|task)(-)*([0-9]{1,3})/', $content4,$c);
+preg_match('/(TASK|task)(-)+([0-9]{1,3})/', $content4,$c);
 
 print_r($c);
-preg_match('/(TASK|task)(-)*([0-9]{1,3})/', $content5,$c);
+preg_match('/(TASK|task)(-)+([0-9]{1,3})/', $content5,$c);
 
 print_r($c);
-preg_match('/(TASK|task)(-)*([0-9]{1,3})/', $content6,$c);
+preg_match('/(TASK|task)(-)+([0-9]{1,3})/', $content6,$c);
 
 print_r($c);
-
-//toodo ćw ma wyszukać TASK-152 i TASK152
 
 //Tutorial//
 
